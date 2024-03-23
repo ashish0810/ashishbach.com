@@ -12,7 +12,7 @@ if(isset($_POST["message"])) {
 
     echo $mailBody . "<br />";
 
-    $pass = mail("me@ashishbach.com", "Message from website Form", $mailBody);
+    $pass = mail("ashish0810@yahoo.com", "Message from website Form", $mailBody);
     sleep(1);
     echo $pass;
     if ($pass) {
