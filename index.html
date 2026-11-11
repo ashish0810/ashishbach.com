@@ -19,6 +19,18 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.job { margin-bottom: 2.5rem; }
+			.job-company { font-size: 1.1rem; letter-spacing: 0.25rem; margin: 0 0 0.75rem 0; padding-bottom: 0.4rem; border-bottom: solid 1px rgba(255, 255, 255, 0.25); }
+			.job-role { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 0.75rem; margin-bottom: 0.4rem; }
+			.job-title { color: #ffffff; font-weight: 600; }
+			.job-location { color: rgba(255, 255, 255, 0.55); font-size: 0.85rem; }
+			.job-location::before { content: "\00b7"; margin-right: 0.75rem; }
+			.job-dates { margin-left: auto; color: rgba(255, 255, 255, 0.55); font-size: 0.75rem; letter-spacing: 0.1rem; text-transform: uppercase; white-space: nowrap; }
+			.job-role + ul, .job ul + .job-role { margin-top: 0.75rem; }
+			.job ul { margin-bottom: 1rem; }
+			@media screen and (max-width: 480px) { .job-dates { margin-left: 0; flex-basis: 100%; } }
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -33,9 +45,9 @@
 						<div class="content">
 							<div class="inner">
 								<h1>Ashish Bachavala</h1>
-								<p>I am a <b>Software Engineer</b> at <b>Mixpanel</b>.<br />
-								I have experience in <b>full stack</b> development and work with a <b>versatile set of languages</b>.<br />
-								I am looking for opportunities and interesting projects in software development.</p>
+								<p>I am a <b>Senior Software Engineer</b> at <b>Mixpanel</b> in New York, NY.<br />
+								I have 5+ years of experience building <b>distributed, revenue-critical systems</b> at Mixpanel, Microsoft, and Amazon.<br />
+								I own <b>billing and monetization</b> engineering at Mixpanel, extending it to AI agents and agentic commerce.</p>
 							</div>
 						</div>
 						<nav>
@@ -57,70 +69,70 @@
 								
 								<h2 class="major">Work Experience</h2>
 								
-								<h3 style="margin-bottom: 0.5rem;">Mixpanel - Remote, US</h3>
-								<h4 style="margin-bottom: 0.5rem;">Software Engineer III</h4>
-								<h5 style="margin-bottom: 0.5rem;">January, 2025 - Present</h5>
-								<ul>
-									<li>Worked on the in-house billing system, providing engineering support to the billing, finance, and account management teams.</li>
-									<li>Developed various projects to help monetize the small and medium business segment and increase revenue.</li>
-								</ul>
-								<p></p>
-								
-								<h3 style="margin-bottom: 0.5rem;">Microsoft - Redmond, WA</h3>
-								<h4 style="margin-bottom: 0.5rem;">Software Engineer</h4>
-								<h5 style="margin-bottom: 0.5rem;">September, 2021 - December, 2024</h5>
-								<ul>
-									<li>Worked on a data processing engine that credits and calculates earnings for Microsoft sellers based on attainment and quotas</li>
-									<li>Used Azure Cloud applications to host and run data processing pipelines and web services</li>
-									<li>Drove the improvement of engineering tools and practices in Azure DevOps</li>
-								</ul>
-								<p></p>
-								
-								<h3 style="margin-bottom: 0.5rem;">Microsoft - Remote, US</h3>
-								<h4 style="margin-bottom: 0.5rem;">Software Engineer Intern</h4>
-								<h5 style="margin-bottom: 0.5rem;">May, 2020 - August, 2020</h5>
-								<ul>
-									<li>Developed a tool for business operations to override large amounts of data by adding rules</li>
-									<li>Used React to build front end components with .NET Framework and Azure services for back end components</li>
-								</ul>
-								<p></p>
-								
-								<h3 style="margin-bottom: 0.5rem;">Amazon.com - Seattle, WA</h3>
-								<h4 style="margin-bottom: 0.5rem;">Software Development Engineer Intern</h4>
-								<h5 style="margin-bottom: 0.5rem;">May, 2019 - August, 2019</h5>
-								<ul>
-									<li>Developed a community reporting feature for a live video and chat experience from end to end</li>
-									<li>Used React to build front end components and AWS services to build back end components</li>
-								</ul>
-								<p></p>
-								
-								<h3 style="margin-bottom: 0.5rem;">Publisher's Clearing House - Jericho, NY</h3>
-								<h4 style="margin-bottom: 0.5rem;">Software Developer Intern</h4>
-								<h5 style="margin-bottom: 0.5rem;">June, 2018 - August, 2018</h5>
-								<ul>
-									<li>Developed an API alongside Online Development Department in an Agile environment</li>
-									<li>Built email notification server and improved winning number generator as part of Lotto, Keno, and Fusion teams</li>
-									<li>Communicated with team on progress in daily scrum meetings</li>
-								</ul>
-								<p></p>
-								
-								<h3 style="margin-bottom: 0.5rem;">Delaware State University Optical Science Center for Applied Research - Dover, DE</h3>
-								<h4 style="margin-bottom: 0.5rem;">Research Intern</h4>
-								<h5 style="margin-bottom: 0.5rem;">June, 2016 - July, 2016</h5>
-								<ul>
-									<li>Created genetic algorithm to optimize laboratory equipment in order to modulate the wave front of a Gaussian laser beam</li>
-									<li>Collaborated with team to set weekly goals and debate various implementations</li>
-								</ul>
-								<p></p>
-								
+								<div class="job">
+									<h3 class="job-company">Mixpanel</h3>
+									<div class="job-role">
+										<span class="job-title">Senior Software Engineer</span>
+										<span class="job-location">New York, NY</span>
+										<span class="job-dates">Nov 2026 &ndash; Present</span>
+									</div>
+									<div class="job-role">
+										<span class="job-title">Software Engineer</span>
+										<span class="job-location">Remote</span>
+										<span class="job-dates">Jan 2025 &ndash; Oct 2026</span>
+									</div>
+									<ul>
+										<li>Tech lead and company-wide engineering point of contact for billing and monetization; lead a team of 4 engineers, onboard and mentor teammates, and shape the design of projects across engineering that touch the billing system, partnering with finance, product, and account management</li>
+										<li>Designed and led Overage Forgiveness end to end, letting customers right-size their plans instead of facing surprise overage bills and converting volatile overages into $500K+ of predictable ARR</li>
+										<li>Uncovered invoicing defects that undercharged overages by ~$100K per year and rebuilt invoicing to bill usage accurately every month, recovering that revenue</li>
+										<li>Designed and built a real-time usage service that determines whether an account is within quota and gates each request for Mixpanel's upcoming AI agent engine</li>
+										<li>Integrated Mixpanel as a provider in Stripe's agentic provisioning ecosystem, enabling AI agents to sign up for, purchase, and provision Mixpanel on a user's behalf</li>
+										<li>Shipped self-serve pricing launches that brought enterprise products to free and paid plans with customizable volume across thousands of accounts, coordinating product, finance, and billing teams</li>
+									</ul>
+								</div>
+
+								<div class="job">
+									<h3 class="job-company">Microsoft</h3>
+									<div class="job-role">
+										<span class="job-title">Software Engineer</span>
+										<span class="job-location">Redmond, WA</span>
+										<span class="job-dates">Sep 2021 &ndash; Dec 2024</span>
+									</div>
+									<ul>
+										<li>Built zero-touch, compliance-ready test, build, and release pipelines enabling deployments to federal air-gapped clouds; adopted by all 4 of the team's services and 5+ services on other teams</li>
+										<li>Developed big data pipelines that calculate billions of dollars in rewards and earnings for Microsoft sellers and partners</li>
+										<li>Designed a multi-region architecture distributing near-real-time data processing across 3+ regions with load balancing, targeting 5-minute p50 latency</li>
+									</ul>
+									<div class="job-role">
+										<span class="job-title">Software Engineering Intern</span>
+										<span class="job-location">Remote</span>
+										<span class="job-dates">May 2020 &ndash; Aug 2020</span>
+									</div>
+									<ul>
+										<li>Built a rules-based tool for business operations to override large datasets (React, .NET, Azure)</li>
+									</ul>
+								</div>
+
+								<div class="job">
+									<h3 class="job-company">Amazon</h3>
+									<div class="job-role">
+										<span class="job-title">Software Development Engineer Intern</span>
+										<span class="job-location">Seattle, WA</span>
+										<span class="job-dates">May 2019 &ndash; Aug 2019</span>
+									</div>
+									<ul>
+										<li>Built an end-to-end community reporting feature for a live video and chat experience (React, AWS)</li>
+									</ul>
+								</div>
+
 								<hr>
 								
 								<h2 class="major">Education</h2>
 								<span class="image main"><img src="images/umd.png" alt="" /></span>
 	
 								<h3 style="margin-bottom: 0.5rem;">University of Maryland - College Park, MD</h3>
-								<h4 style="margin-bottom: 0.5rem;">Computer Science, Honor's College</h4>
-								<h5 style="margin-bottom: 0.5rem;">August, 2017 - May, 2021</h5>
+								<h4 style="margin-bottom: 0.5rem;">B.Sc. in Computer Science</h4>
+								<h5 style="margin-bottom: 0.5rem;">May, 2021</h5>
 								<!-- <h5>GPA: 3.341</h5> -->
 								<p></p>
 							</article>
@@ -130,36 +142,13 @@
 								<h2 class="major">Portfolio</h2>
 								<!-- <span class="image main"><img src="images/portfolio.png" alt="" /></span> -->
 								
-								<h3 style="margin-bottom: 0.5rem;">Spotify Viz - JavaScript, HTML, CSS</h3>
-								<!-- <span class="image main" style="margin: 0.2rem 0;"><img src="images/agenda.png" alt="" /></span> -->
-								<p>Created a music visualizer that reacts to the music you are currently playing on Spotify<br />
-									<a href="https://github.com/ashish0810/spotify-viz">Click here to check it out</a></p>
-									
-									<hr>
-									
-									<h3 style="margin-bottom: 0.5rem;">Agenda Application - JavaScript, PHP, MySQL, HTML, CSS</h3>
-									<!-- <span class="image main" style="margin: 0.2rem 0;"><img src="images/agenda.png" alt="" /></span> -->
-								<p>Designed and built a productivity application which allows users to create a personal account then save and track daily tasks<br />
-								<!-- <a href="https://ashishbach.com/agenda">Click here to check it out</a></p> -->
+								<h3 style="margin-bottom: 0.5rem;">Rental Property Manager (private beta) - Swift, SwiftData, iCloud</h3>
+								<p>iOS app for managing rental properties' expenses, leases, and rent payments, with private data sync through the user's iCloud.</p>
 
 								<hr>
 
-								<h3 style="margin-bottom: 0.5rem;">Ashish Chat - JavaScript, PHP, HTML, CSS</h3>
-								<!-- <span class="image main" style="margin: 0.2rem 0;"><img src="images/chat.png" alt="" /></span> -->
-								<p>Created a simple online chat program which allows users to send text based messages between each other<br />
-								<!-- <a href="https://ashishbach.com/chat">Click here to check it out</a></p> -->
-
-								<hr>
-
-								<h3 style="margin-bottom: 0.5rem;">Indian US Society of Delaware Website - HTML, CSS</h3>
-								<!-- <span class="image main" style="margin: 0.2rem 0;"><img src="images/iusd.png" alt="" /></span> -->
-								<p>Developed website to improve outreach for organization using analytics and consumer-minded design</p>
-
-								<hr>
-
-								<h3 style="margin-bottom: 0.5rem;">Over Sand Vehicle - C, Arduino, Electronics</h3>
-								<!-- <span class="image main" style="margin: 0.2rem 0;"><img src="images/osv.png" alt="" /></span> -->
-								<p>Lead a team in building an over sand vehicle to autonomously locate and extinguish fires which came in 2nd place out of 15 participating teams</p><p></p>
+								<h3 style="margin-bottom: 0.5rem;">Amazon SES Client - C#, UWP</h3>
+								<p>Windows Store app that gives Amazon Simple Email Service a desktop interface for managing and sending email.</p>
 							</article>
 
 						<!-- Skills -->
@@ -167,11 +156,14 @@
 								<h2 class="major">Skills</h2>
 								<!-- <span class="image main"><img src="images/skills.jpg" alt="" /></span> -->
 								<span class="image main"><img src="images/portfolio.png" alt="" /></span>
-								<h3>Programming Languages</h3>
-								<p>C#, C, Java, PHP, Python, JavaScript, React, JQuery, SQL, HTML, CSS, Unix, Assembly, .NET Framework, Ruby, OCaml, Rust, AWS, Azure</p>
+								<h3>Languages</h3>
+								<p>Python, JavaScript, SQL, C#, Java, Scala, Swift</p>
 
-								<h3>Relevant Courses</h3>
-								<p>Object-Oriented Programming, Algrithms, Discrete Structures, Computer Systems, Advanced Data Structures, Introduction to Compilers, Computer Networks, Organization of Programming Lanugages, Electric Circuits, Digital Logic Design, Elements of Discrete Signal Analysis, Digital Circuits and Systems Laboratory, Operating Systems, Database Design</p>
+								<h3>Frameworks</h3>
+								<p>Django, React, .NET, SwiftData, Stripe API</p>
+
+								<h3>Cloud &amp; Infrastructure</h3>
+								<p>GCP, AWS, Azure, CI/CD pipelines</p>
 							</article>
 
 						<!-- Contact -->
@@ -209,7 +201,7 @@
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; Ashish Bachavala. Contact: <a href="mailto:ashish0810@yahoo.com">ashish0810@yahoo.com</a>. View my <a href="Ashish-Bachavala-Resume.pdf">resume here</a>.</p>
+						<p class="copyright">&copy; Ashish Bachavala. Contact: <a href="mailto:ashish081099@gmail.com">ashish081099@gmail.com</a>. View my <a href="Ashish-Bachavala-Resume.pdf">resume here</a>.</p>
 					</footer>
 
 			</div>
